@@ -13,7 +13,7 @@ class ProcedimentoTestePedidos(unittest.TestCase):
     def test_open_favorites_page(self):
                 
         # Realize o login usando os métodos da página de login
-        self.login_page.fill_credentials('fabriciio_@live.com', 'Teste1234')
+        self.login_page.fill_credentials('email aq', 'senha aq')
         self.login_page.perform_login()
         
         time.sleep(3)
