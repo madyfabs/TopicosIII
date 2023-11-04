@@ -12,7 +12,7 @@ class ProcedimentoTesteLogin(unittest.TestCase):
         
 
     def test_invalid_login(self):
-        self.login_page.fill_credentials('madyfabricio@gmail.com', 'Teste1234567')
+        self.login_page.fill_credentials('coloca email aq', 'senha aq')
         self.login_page.perform_login()
 
         time.sleep(3)
