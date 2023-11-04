@@ -14,7 +14,7 @@ class ProcedimentoTesteLogin(unittest.TestCase):
 
     def test_valid_login(self):
         
-        self.login_page.fill_credentials('fabriciio_@live.com', 'Teste1234')
+        self.login_page.fill_credentials('coloca email aq', 'senha aqui')
         self.login_page.perform_login()
 
         time.sleep(3)
